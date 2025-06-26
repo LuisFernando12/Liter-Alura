@@ -20,7 +20,6 @@ public class LiterAluraApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(Language.valueOf("EN"));
 		Main main = new Main(bookRepository);
 		main.showMenu();
 	}
